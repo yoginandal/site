@@ -1,0 +1,195 @@
+body {
+  margin:0;
+  text-align: center;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 3rem auto 0 auto;
+  padding: 3.5rem 0 3rem;
+}
+
+.background{
+width: 100%;
+}
+
+hr {
+  border: dotted #EAF6F6 0.5rem;
+  border-top: none;
+}
+
+.top-container {
+
+  padding: 0 0 4rem 0;
+
+}
+
+hr{
+  width: 4%;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.home_page_h1 {
+  color: #66BFBF;
+  font-family: Allura, cursive;
+  font-size: 5.62em;
+  margin: 50px auto 0 auto;
+  position: relative;
+  right: 5%;
+  /* NOTE:  line-height: is used to increase gap between 2 objects */
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  line-height: 2%;
+  text-align: center;
+}
+
+p {
+  color: #282828;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.web_dev {
+  color: #66BFBF;
+  font-size: 2.48em;
+  font-weight: bold;
+  position: relative;
+  right: 5%;
+}
+
+.footer-p{
+  color: white;
+  margin: 2rem auto 0 auto;
+}
+
+.skills {
+  line-height: 8rem;
+}
+
+.profile {
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+  line-height: 1.5rem;
+  margin: 5rem auto 2rem auto;
+}
+
+.my_objective{
+  margin: 2.5rem auto;
+}
+
+.skill-row {
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.CSS3 {
+  width: 20%;
+  float: left;
+  /* NOTE: clear: left or right make that class a anti-float */
+}
+
+.HTML5 {
+  width: 20%;
+  float: right;
+}
+
+.JavaScript {
+  width: 20%;
+  float: right;
+}
+
+.Python {
+  width: 20%;
+  float: left;
+}
+
+.SQL {
+  width: 20%;
+  float: left;
+}
+
+.AWS {
+  width: 20%;
+  float: right;
+}
+
+.Linux {
+  width: 20%;
+  float: right;
+}
+
+.contact-me{
+  color: #11999E;
+  width: 60%;
+  margin: auto;
+  line-height: 2.3rem;
+}
+
+.BUTTON {
+  background: #11CDD4;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.BUTTON:hover {
+  border: solid #337FED 0;
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #11CDD4);
+  background-image: -moz-linear-gradient(top, #3D94F6, #11CDD4);
+  background-image: -ms-linear-gradient(top, #3D94F6, #11CDD4);
+  background-image: -o-linear-gradient(top, #3D94F6, #11CDD4);
+  background-image: -webkit-gradient(to bottom, #3D94F6, #11CDD4);
+  text-decoration: none;
+}
+
+a{
+  color: white;
+  margin: 1.5rem 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover{
+  color: #11999E;
+}
+/*.Dev {
+  text-decoration: underline;
+}*/
+/* NOTE: 1rem = 1em = 100% = 16px */
+/* NOTE: we can use display function to change box for block(things that do not allow other things to be in same line but we can change it's width),
+inline(two things in one line we can achieve this by using <span> in HTML section but span does not allow to change it's width)span does not do anything without css,
+inlne-block(this give us ability of inline as well as block we can add two or more things in one line and we can change it's width),
+display:none(it will make anything invisble but it will be trated as deleted means it will make content like it was never there),
+visiblity:hidden;(it will make our conent hidden only user will not be able to see it but site will act as if it is there).*/
